@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
 
+import java.util.Date;
+
 
 @Getter
 @Setter
@@ -16,6 +18,8 @@ public class NewUserMessageEvent extends ApplicationEvent {
     private Long sendTo;
     private String simpleContent;
     private JSONObject other;
+    private Date startTime;
+    private Date endTime;
     /**
      * Create a new {@code ApplicationEvent}.
      *
