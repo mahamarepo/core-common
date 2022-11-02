@@ -1,6 +1,6 @@
-package com.github.mahamarepo.event;
+package com.mahama.corecommon.event;
 
-import com.github.mahamarepo.extra.UserExtraInterface;
+import com.alibaba.fastjson.JSONObject;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationEvent;
 @Setter
 public class SetUserExtraEvent extends ApplicationEvent {
     private Long userId;
-    private UserExtraInterface extra;
+    private JSONObject extra;
 
     public SetUserExtraEvent(Object source) {
         super(source);

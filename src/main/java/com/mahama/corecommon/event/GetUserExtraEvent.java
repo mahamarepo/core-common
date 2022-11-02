@@ -1,6 +1,6 @@
-package com.github.mahamarepo.event;
+package com.mahama.corecommon.event;
 
-import com.github.mahamarepo.extra.UserExtraInterface;
+import com.mahama.corecommon.extra.UserExtraInterface;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;

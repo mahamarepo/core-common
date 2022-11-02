@@ -1,4 +1,4 @@
-package com.github.mahamarepo.enumeration;
+package com.mahama.corecommon.enumeration;
 
 public enum UserMessageType {
     /**

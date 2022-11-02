@@ -1,4 +1,4 @@
-package com.github.mahamarepo.event;
+package com.mahama.corecommon.event;
 
 import lombok.Getter;
 import lombok.Setter;

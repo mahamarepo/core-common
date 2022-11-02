@@ -1,4 +1,4 @@
-package com.github.mahamarepo.extra;
+package com.mahama.corecommon.extra;
 
 public interface UserExtraInterface {
     Long getUserId();

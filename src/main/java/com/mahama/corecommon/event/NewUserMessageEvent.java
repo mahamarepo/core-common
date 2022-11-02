@@ -1,7 +1,7 @@
-package com.github.mahamarepo.event;
+package com.mahama.corecommon.event;
 
 import com.alibaba.fastjson.JSONObject;
-import com.github.mahamarepo.enumeration.UserMessageType;
+import com.mahama.corecommon.enumeration.UserMessageType;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
