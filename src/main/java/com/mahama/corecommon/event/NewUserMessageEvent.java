@@ -15,6 +15,9 @@ public class NewUserMessageEvent extends ApplicationEvent {
     private String title;
     private String content;
     private UserMessageType type;
+    private String businessId;
+    private String businessType;
+    private String businessInfo;
     private Long sendTo;
     private String simpleContent;
     private JSONObject other;
